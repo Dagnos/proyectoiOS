@@ -15,6 +15,7 @@ class RegistroViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var contraseña: UITextField!
     
+    @IBOutlet weak var nameFulllbl: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,6 +29,7 @@ class RegistroViewController: UIViewController {
             }else{
                 print("El usuario fue creado exitosamente")
                 Database.database().reference().child("usuarios").child(user!.user.uid).child("email").setValue(user!.user.email)
+                Database.database().reference().child("usuarios").child(user!.user.uid).child("nameFull").setValue(self.nameFulllbl.text)
                 
                 let alerta = UIAlertController(title: "GAAAAAAAAAA", message: "Usuario \(self.email!.text!) se creo correctament", preferredStyle: .alert)
                 let btnOK = UIAlertAction(title: "Aceptar", style: .default, handler: {(UIAlertAction) in
