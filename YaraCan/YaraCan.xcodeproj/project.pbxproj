@@ -15,6 +15,8 @@
 		0EA3936522B1558C0076B23C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3936422B1558C0076B23C /* DesignableView.swift */; };
 		0EBD6FFF22B55CEF001A93B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */; };
 		0EBD700122B57B3F001A93B6 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD700022B57B3F001A93B6 /* RegistroViewController.swift */; };
+		48839C0B22B9A12F00E851BA /* PublicacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */; };
+		489DC29B22BAC982001821D5 /* AdopcionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC29A22BAC982001821D5 /* AdopcionViewController.swift */; };
 		70181BCDC9DF4ACF6EAE9C4C /* Pods_YaraCan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F0848A2F836AB550F61258 /* Pods_YaraCan.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0EBD700022B57B3F001A93B6 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistroViewController.swift; path = ../RegistroViewController.swift; sourceTree = "<group>"; };
 		35F0848A2F836AB550F61258 /* Pods_YaraCan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaraCan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicacionesViewController.swift; sourceTree = "<group>"; };
+		489DC29A22BAC982001821D5 /* AdopcionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdopcionViewController.swift; sourceTree = "<group>"; };
 		7DBDA185C7DB79B0BBA2D3EF /* Pods-YaraCan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaraCan.debug.xcconfig"; path = "Target Support Files/Pods-YaraCan/Pods-YaraCan.debug.xcconfig"; sourceTree = "<group>"; };
 		E54E0714232FFE26C3450813 /* Pods-YaraCan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaraCan.release.xcconfig"; path = "Target Support Files/Pods-YaraCan/Pods-YaraCan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +80,8 @@
 				0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */,
 				0E5C701D22B01EFC00B81513 /* LaunchScreen.storyboard */,
 				0E5C702022B01EFC00B81513 /* Info.plist */,
+				48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */,
+				489DC29A22BAC982001821D5 /* AdopcionViewController.swift */,
 			);
 			path = YaraCan;
 			sourceTree = "<group>";
@@ -217,6 +223,8 @@
 				0EBD700122B57B3F001A93B6 /* RegistroViewController.swift in Sources */,
 				0E5C701522B01EF800B81513 /* AppDelegate.swift in Sources */,
 				0EA3936522B1558C0076B23C /* DesignableView.swift in Sources */,
+				48839C0B22B9A12F00E851BA /* PublicacionesViewController.swift in Sources */,
+				489DC29B22BAC982001821D5 /* AdopcionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,13 +374,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C8AX944K4;
 				INFOPLIST_FILE = YaraCan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernando.YaraCan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -385,13 +394,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6C8AX944K4;
 				INFOPLIST_FILE = YaraCan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fernando.YaraCan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
