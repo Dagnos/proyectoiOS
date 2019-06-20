@@ -12,13 +12,17 @@
 		0E5C701A22B01EF800B81513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5C701822B01EF800B81513 /* Main.storyboard */; };
 		0E5C701C22B01EFC00B81513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5C701B22B01EFC00B81513 /* Assets.xcassets */; };
 		0E5C701F22B01EFC00B81513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5C701D22B01EFC00B81513 /* LaunchScreen.storyboard */; };
+		0E97C6E522BB7DC200B560F9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97C6E422BB7DC200B560F9 /* MapKit.framework */; };
+		0E97C6E722BB82B700B560F9 /* MapasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97C6E622BB82B700B560F9 /* MapasViewController.swift */; };
 		0EA3936522B1558C0076B23C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3936422B1558C0076B23C /* DesignableView.swift */; };
 		0EBD6FFF22B55CEF001A93B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */; };
 		0EBD700122B57B3F001A93B6 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD700022B57B3F001A93B6 /* RegistroViewController.swift */; };
 		48839C0B22B9A12F00E851BA /* PublicacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */; };
 		489DC29B22BAC982001821D5 /* AdopcionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC29A22BAC982001821D5 /* AdopcionViewController.swift */; };
+		489DC29F22BAF59A001821D5 /* selectPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC29E22BAF59A001821D5 /* selectPostViewController.swift */; };
+		489DC2A122BAF607001821D5 /* publicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC2A022BAF607001821D5 /* publicViewCell.swift */; };
+		489DC2A322BB0295001821D5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC2A222BB0295001821D5 /* File.swift */; };
 		588E7BBD22BAD182001702DC /* Publicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E7BBC22BAD182001702DC /* Publicaciones.swift */; };
-		588E7BBF22BAE842001702DC /* publicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E7BBE22BAE842001702DC /* publicViewCell.swift */; };
 		70181BCDC9DF4ACF6EAE9C4C /* Pods_YaraCan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F0848A2F836AB550F61258 /* Pods_YaraCan.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -30,14 +34,18 @@
 		0E5C701B22B01EFC00B81513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5C701E22B01EFC00B81513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5C702022B01EFC00B81513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E97C6E422BB7DC200B560F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0E97C6E622BB82B700B560F9 /* MapasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapasViewController.swift; sourceTree = "<group>"; };
 		0EA3936422B1558C0076B23C /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0EBD700022B57B3F001A93B6 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistroViewController.swift; path = ../RegistroViewController.swift; sourceTree = "<group>"; };
 		35F0848A2F836AB550F61258 /* Pods_YaraCan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaraCan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicacionesViewController.swift; sourceTree = "<group>"; };
 		489DC29A22BAC982001821D5 /* AdopcionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdopcionViewController.swift; sourceTree = "<group>"; };
+		489DC29E22BAF59A001821D5 /* selectPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectPostViewController.swift; sourceTree = "<group>"; };
+		489DC2A022BAF607001821D5 /* publicViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = publicViewCell.swift; path = ../../../../.Trash/publicViewCell.swift; sourceTree = "<group>"; };
+		489DC2A222BB0295001821D5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		588E7BBC22BAD182001702DC /* Publicaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publicaciones.swift; sourceTree = "<group>"; };
-		588E7BBE22BAE842001702DC /* publicViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publicViewCell.swift; sourceTree = "<group>"; };
 		7DBDA185C7DB79B0BBA2D3EF /* Pods-YaraCan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaraCan.debug.xcconfig"; path = "Target Support Files/Pods-YaraCan/Pods-YaraCan.debug.xcconfig"; sourceTree = "<group>"; };
 		E54E0714232FFE26C3450813 /* Pods-YaraCan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaraCan.release.xcconfig"; path = "Target Support Files/Pods-YaraCan/Pods-YaraCan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E97C6E522BB7DC200B560F9 /* MapKit.framework in Frameworks */,
 				70181BCDC9DF4ACF6EAE9C4C /* Pods_YaraCan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,10 +84,12 @@
 		0E5C701322B01EF800B81513 /* YaraCan */ = {
 			isa = PBXGroup;
 			children = (
+				489DC2A022BAF607001821D5 /* publicViewCell.swift */,
 				0EBD700022B57B3F001A93B6 /* RegistroViewController.swift */,
 				0E5C701422B01EF800B81513 /* AppDelegate.swift */,
 				0E5C701622B01EF800B81513 /* IniciarSesionViewController.swift */,
 				0E5C701822B01EF800B81513 /* Main.storyboard */,
+				0E97C6E622BB82B700B560F9 /* MapasViewController.swift */,
 				0EA3936422B1558C0076B23C /* DesignableView.swift */,
 				0E5C701B22B01EFC00B81513 /* Assets.xcassets */,
 				0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */,
@@ -87,7 +98,8 @@
 				48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */,
 				489DC29A22BAC982001821D5 /* AdopcionViewController.swift */,
 				588E7BBC22BAD182001702DC /* Publicaciones.swift */,
-				588E7BBE22BAE842001702DC /* publicViewCell.swift */,
+				489DC29E22BAF59A001821D5 /* selectPostViewController.swift */,
+				489DC2A222BB0295001821D5 /* File.swift */,
 			);
 			path = YaraCan;
 			sourceTree = "<group>";
@@ -104,6 +116,7 @@
 		993D22CB9CB55D3CF2785706 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E97C6E422BB7DC200B560F9 /* MapKit.framework */,
 				35F0848A2F836AB550F61258 /* Pods_YaraCan.framework */,
 			);
 			name = Frameworks;
@@ -241,13 +254,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5C701722B01EF800B81513 /* IniciarSesionViewController.swift in Sources */,
-				588E7BBF22BAE842001702DC /* publicViewCell.swift in Sources */,
+				489DC2A122BAF607001821D5 /* publicViewCell.swift in Sources */,
 				0EBD700122B57B3F001A93B6 /* RegistroViewController.swift in Sources */,
 				0E5C701522B01EF800B81513 /* AppDelegate.swift in Sources */,
 				588E7BBD22BAD182001702DC /* Publicaciones.swift in Sources */,
+				489DC2A322BB0295001821D5 /* File.swift in Sources */,
 				0EA3936522B1558C0076B23C /* DesignableView.swift in Sources */,
 				48839C0B22B9A12F00E851BA /* PublicacionesViewController.swift in Sources */,
+				489DC29F22BAF59A001821D5 /* selectPostViewController.swift in Sources */,
 				489DC29B22BAC982001821D5 /* AdopcionViewController.swift in Sources */,
+				0E97C6E722BB82B700B560F9 /* MapasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9GZ55FZ6B;
+				DEVELOPMENT_TEAM = 6C8AX944K4;
 				INFOPLIST_FILE = YaraCan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -415,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9GZ55FZ6B;
+				DEVELOPMENT_TEAM = 6C8AX944K4;
 				INFOPLIST_FILE = YaraCan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
