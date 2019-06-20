@@ -216,7 +216,6 @@
             </objects>
             <point key="canvasLocation" x="1576.8115942028987" y="20.758928571428569"/>
         </scene>
-<<<<<<< HEAD
         <!--Select Post View Controller-->
         <scene sceneID="sxb-10-AC9">
             <objects>
@@ -349,8 +348,6 @@
             </objects>
             <point key="canvasLocation" x="5271.0144927536239" y="434.59821428571428"/>
         </scene>
-=======
->>>>>>> 36cc9e6684445d0d857195298dbd209737d5f771
         <!--Negocios-->
         <scene sceneID="nZV-sW-VJl">
             <objects>
@@ -829,7 +826,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jXc-HP-Bna">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-<<<<<<< HEAD
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="402" id="Yie-Ye-Bot" customClass="publicViewCell" customModule="YaraCan" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="402"/>
@@ -855,11 +851,7 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7M7-eT-oQT">
-<<<<<<< HEAD
                                                     <rect key="frame" x="107" y="189" width="200" height="150"/>
-=======
-                                                    <rect key="frame" x="50" y="173" width="200" height="150"/>
->>>>>>> parent of 69aa5d6... "interfaz"
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -879,11 +871,6 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-<<<<<<< HEAD
-=======
->>>>>>> 36cc9e6684445d0d857195298dbd209737d5f771
-=======
->>>>>>> parent of 69aa5d6... "interfaz"
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -896,10 +883,14 @@
                         <viewLayoutGuide key="safeArea" id="7Tj-Od-cPR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Publicaciones" id="SFO-wQ-cbl"/>
+                    <connections>
+                        <outlet property="tablaPublicaciones" destination="jXc-HP-Bna" id="9gy-nN-O8a"/>
+                        <segue destination="7WR-Ai-iDT" kind="show" identifier="funcionaplis" id="hvZ-e8-66J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQn-vM-UcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4261" y="435"/>
+            <point key="canvasLocation" x="4260.8695652173919" y="434.59821428571428"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rGH-bf-UPo">
@@ -927,6 +918,6 @@
         <image name="boxer" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5EJ-re-goT"/>
+        <segue reference="Vob-y4-uDg"/>
     </inferredMetricsTieBreakers>
 </document>
