@@ -18,9 +18,9 @@
 		48839C0B22B9A12F00E851BA /* PublicacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */; };
 		489DC29B22BAC982001821D5 /* AdopcionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC29A22BAC982001821D5 /* AdopcionViewController.swift */; };
 		489DC29F22BAF59A001821D5 /* selectPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC29E22BAF59A001821D5 /* selectPostViewController.swift */; };
-		489DC2A122BAF607001821D5 /* publicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC2A022BAF607001821D5 /* publicViewCell.swift */; };
 		489DC2A322BB0295001821D5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC2A222BB0295001821D5 /* File.swift */; };
 		588E7BBD22BAD182001702DC /* Publicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588E7BBC22BAD182001702DC /* Publicaciones.swift */; };
+		58E505CF22BBF24F00D31987 /* publicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC2A022BAF607001821D5 /* publicViewCell.swift */; };
 		70181BCDC9DF4ACF6EAE9C4C /* Pods_YaraCan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F0848A2F836AB550F61258 /* Pods_YaraCan.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -247,11 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5C701722B01EF800B81513 /* IniciarSesionViewController.swift in Sources */,
-				489DC2A122BAF607001821D5 /* publicViewCell.swift in Sources */,
 				0EBD700122B57B3F001A93B6 /* RegistroViewController.swift in Sources */,
 				0E5C701522B01EF800B81513 /* AppDelegate.swift in Sources */,
 				588E7BBD22BAD182001702DC /* Publicaciones.swift in Sources */,
 				489DC2A322BB0295001821D5 /* File.swift in Sources */,
+				58E505CF22BBF24F00D31987 /* publicViewCell.swift in Sources */,
 				0EA3936522B1558C0076B23C /* DesignableView.swift in Sources */,
 				48839C0B22B9A12F00E851BA /* PublicacionesViewController.swift in Sources */,
 				489DC29F22BAF59A001821D5 /* selectPostViewController.swift in Sources */,
