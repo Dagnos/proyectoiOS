@@ -51,12 +51,22 @@ class PublicacionesViewController: UIViewController , UITableViewDelegate, UITab
                 notic.userID = (snapshot.value as! NSDictionary)["userID"] as! String
                 self.publicaciones.append(notic)
                 self.tablaPublicaciones.reloadData()
-                print(notic)
+                print(notic.id)
                 
             })
         }
     
   
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let snap = publicaciones[indexPath.row]
+        print(snap.id)
+        performSegue(withIdentifier: "funcionaplis", sender: snap)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "funcionaplis" {
+            let siguienteVC = segue.destination as! selectPostViewController
+            siguienteVC.snap = sender as! Publicaciones
+        }
+    }
 
 }
