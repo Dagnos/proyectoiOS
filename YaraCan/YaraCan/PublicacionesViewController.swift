@@ -21,10 +21,11 @@ class PublicacionesViewController: UIViewController , UITableViewDelegate, UITab
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell",for: indexPath) as! publicViewCell
                 let notifi = self.publicaciones[indexPath.row]
-                cell.name.text = notifi.petname
-                cell.descripcion.text = notifi.descripcion
+                    cell.name.text = notifi.petname
+                    cell.descripcion.text = notifi.descripcion
+        cell.imagenPet?.sd_setImage(with: URL(string: notifi.urlImagen), completed: nil)
 ////                cell.imagenPet.image = UIImage()
-                cell.imageView?.sd_setImage(with: URL(string: notifi.urlImagen), completed: nil)
+        
 ////              imageView.sd_setImage(with: URL(string: notifi.urlImagen), completed: nil)
                 return cell
 
