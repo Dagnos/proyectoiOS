@@ -855,7 +855,11 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7M7-eT-oQT">
+<<<<<<< HEAD
                                                     <rect key="frame" x="107" y="189" width="200" height="150"/>
+=======
+                                                    <rect key="frame" x="50" y="173" width="200" height="150"/>
+>>>>>>> parent of 69aa5d6... "interfaz"
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -875,8 +879,11 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+<<<<<<< HEAD
 =======
 >>>>>>> 36cc9e6684445d0d857195298dbd209737d5f771
+=======
+>>>>>>> parent of 69aa5d6... "interfaz"
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
