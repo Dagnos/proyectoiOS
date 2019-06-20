@@ -15,6 +15,7 @@
 		0EA3936522B1558C0076B23C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3936422B1558C0076B23C /* DesignableView.swift */; };
 		0EBD6FFF22B55CEF001A93B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */; };
 		0EBD700122B57B3F001A93B6 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD700022B57B3F001A93B6 /* RegistroViewController.swift */; };
+		4877FD5022BBEEA10061BC34 /* Comentarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877FD4F22BBEEA10061BC34 /* Comentarios.swift */; };
 		48839C0B22B9A12F00E851BA /* PublicacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */; };
 		489DC29B22BAC982001821D5 /* AdopcionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC29A22BAC982001821D5 /* AdopcionViewController.swift */; };
 		489DC29F22BAF59A001821D5 /* selectPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC29E22BAF59A001821D5 /* selectPostViewController.swift */; };
@@ -36,6 +37,7 @@
 		0EBD6FFE22B55CEF001A93B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0EBD700022B57B3F001A93B6 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistroViewController.swift; path = ../RegistroViewController.swift; sourceTree = "<group>"; };
 		35F0848A2F836AB550F61258 /* Pods_YaraCan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaraCan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4877FD4F22BBEEA10061BC34 /* Comentarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentarios.swift; sourceTree = "<group>"; };
 		48839C0A22B9A12F00E851BA /* PublicacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicacionesViewController.swift; sourceTree = "<group>"; };
 		489DC29A22BAC982001821D5 /* AdopcionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdopcionViewController.swift; sourceTree = "<group>"; };
 		489DC29E22BAF59A001821D5 /* selectPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectPostViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				588E7BBC22BAD182001702DC /* Publicaciones.swift */,
 				489DC29E22BAF59A001821D5 /* selectPostViewController.swift */,
 				489DC2A222BB0295001821D5 /* File.swift */,
+				4877FD4F22BBEEA10061BC34 /* Comentarios.swift */,
 			);
 			path = YaraCan;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				489DC2A122BAF607001821D5 /* publicViewCell.swift in Sources */,
 				0EBD700122B57B3F001A93B6 /* RegistroViewController.swift in Sources */,
 				0E5C701522B01EF800B81513 /* AppDelegate.swift in Sources */,
+				4877FD5022BBEEA10061BC34 /* Comentarios.swift in Sources */,
 				588E7BBD22BAD182001702DC /* Publicaciones.swift in Sources */,
 				489DC2A322BB0295001821D5 /* File.swift in Sources */,
 				0EA3936522B1558C0076B23C /* DesignableView.swift in Sources */,

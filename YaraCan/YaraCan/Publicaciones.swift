@@ -15,5 +15,4 @@ class Publicaciones {
     var raza = ""
     var descripcion = ""
     var urlImagen = ""
-
 }
